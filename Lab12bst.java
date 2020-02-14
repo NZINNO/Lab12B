@@ -43,8 +43,8 @@ class Deck
 	public String toString()
 	{
 	String temp = "";
-	for (int x=0; x<size; x++)
+		for (int x=0; x<size; x++)
 	temp = temp + cards.get(x).toString() + "\n";
-	return temp;
+		return temp;
 	}
  }
